@@ -1,0 +1,54 @@
+<html>
+<head>
+   <title> Crochet Delights</title>
+   <link rel="stylesheet" href="style.css">
+   <script>
+let btn = document.getElementById("submit")
+btn.addEventListener('click',()=>{
+    location.assign('second page.html')
+})   
+   </script>
+</head>
+<body>
+    
+    <fieldset>
+        
+    <h1> welcome to our website </h1>
+    <h2><i>Made with love</i></h2>
+    <form action="URL OF PAGE"= "method"="get">
+
+<label for="textbox1"><b>Firstname</b></label>
+<input type="text" name="Firstname" maxlength="30" placeholder="Omar" required/> 
+<hr>
+<label for="textbox2"><b>Last name</b></label>
+<input id="textbox2" type="text" name="Lastname" maxlength="30" placeholder="Tarek" required/>
+
+<hr>
+
+<label for="male"><b>male</b></label>
+<input type ="radio" id="male" name="gender" value="M"/>
+
+<label for="Female"> <b>Female</b></label>
+<input type="radio" id="Female" name="gender" value="=F"/> <br/>
+<hr>
+<label for ="textbox3"><b>email</b></label>
+<input id="textbox3" type="email" placeholder="Omar@gmail.com" required/>
+<hr>
+<label for="textbox4"><b>password</b></label>
+<input id="textbox4" type="password" placeholder="password" required/> <br/>
+<hr>
+
+<label for="box"> <b>I agree with form conditions</b></label>
+<input id="box" type="checkbox" name="check" value="val1" checked/>
+<hr>
+
+<button style="cursor: pointer;" id="submit" type="submit">Submit</button>
+
+
+    </fieldset>
+    </form>
+    <script src="INDEX.JS"></script>
+    
+</body>
+
+</html>
